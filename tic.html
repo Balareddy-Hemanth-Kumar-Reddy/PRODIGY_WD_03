@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="tic.css" />
+
+    </head>
+    <body>
+        <div class="content-wrapper">
+            <header>
+                <div class="players-section">
+                    <div id='p1' class="active">p1</div>
+                    <div id='p2' class="inactive">p2</div>
+                </div>
+            </header>
+
+            <main>
+                <div class="table-wrapper">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td id='left-one' class="left-one"></td>
+                                <td id='middle-one' class="middle-one"></td>
+                                <td id='right-one' class="right-one"></td>
+                            </tr>
+                            <tr>
+                                <td id='left-two' class="left-two"></td>
+                                <td id='middle-two' class="middle-two"></td>
+                                <td id='right-two' class="right-two"></td>
+                            </tr>
+                            <tr>
+                                <td id='left-three' class="left-three"></td>
+                                <td id='middle-three' class="middle-three"></td>
+                                <td id='right-three' class="right-three"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <center>
+                    <button id="reset-btn" class="reset-btn">Reset Game</button>
+                </center>
+                <center id="tic-result"></center>
+            </main>
+
+            <script src="./tic.js"></script>
+        </div>
+    </body>
+</html>
